@@ -1,4 +1,4 @@
 #!/bin/bash
 USERNAME=$1
 PASSWD=$2
-echo "print username is $username, :passwd is $passwd"
+echo "print username is $lucky, :passwd is $123"
