@@ -21,3 +21,4 @@ yum install mysql -y
 
 VALIDATE 
 Yum install git -y
+VALIDATE
