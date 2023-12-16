@@ -3,10 +3,10 @@ ID=$(id -u)
 VALIDATE(){
     if [$? -ne 0 ]
 then
-echo "ERROR::installing my sql faield"
+echo "ERROR::installing  faield"
 exit 1
 else
-echo "installing my sql is success"
+echo "installing  is success"
 fi  
 }
 
