@@ -13,8 +13,3 @@ echo "you are the root user"
 fi
 
 #echo "All arguments passed: $@"
-
-
-
-
-
