@@ -28,10 +28,10 @@ fi
 
 for package in $@ 
 do
-yum list installed $package
-if [ $? -ne 0 ]
-then
-yum install $package -y
-VALIDATE $? "installation of package"
+    yum list installed $package
+    if [ $? -ne 0 ]
+    then
+    yum install $package -y
+    VALIDATE $? "installation of $package"
 
 done
