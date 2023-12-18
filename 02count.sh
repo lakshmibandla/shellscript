@@ -1,3 +1,5 @@
-#!/bin/bash
-file="/home/centos/shellscript/lucky.sh"
-wc -w $file
+Word_count=$(wc -w)
+file_Name=$(grep lucky.sh)
+echo "Filename Display"
+
+echo "wordcount:$wordcount"
