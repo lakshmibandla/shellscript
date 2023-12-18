@@ -32,5 +32,6 @@ yum list installed $package
 if [ $? -ne 0 ]
 then
 yum install $package -y
-VALIDATE $?
+VALIDATE $? "installation of package"
+
 done
