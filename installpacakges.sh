@@ -16,7 +16,7 @@ fi
 for pacakage in $@
 do
 yum list installed $pacakages
-if [$? -ne 0 ]
+if [ $? -ne 0 ]
 then 
 yum install $pacakages -y
 VALIDATE $?
